@@ -27,11 +27,11 @@ public class AutoTyperUI extends JFrame {
     }
 
     private void createComponents() {
-        //textArea = new JTextArea(10, 30);
+        textArea = new JTextArea(10, 30);
         textArea.setLineWrap(true);
         textArea.setWrapStyleWord(true);
         
-        //JScrollPane scrollPane = new JScrollPane(textArea);
+        JScrollPane scrollPane = new JScrollPane(textArea);
         scrollPane.setBorder(BorderFactory.createEmptyBorder(16, 16, 16, 16));
         
         submitButton = new JButton("Submit & Type");
@@ -46,7 +46,7 @@ public class AutoTyperUI extends JFrame {
         
         JPanel buttonPanel = new JPanel();
         buttonPanel.add(new JLabel("Delay (seconds):"));
-        //buttonPanel.add(delayField);
+        buttonPanel.add(delayField);
         buttonPanel.add(timerLabel);
         buttonPanel.add(submitButton);
         panel.add(buttonPanel, BorderLayout.SOUTH);
