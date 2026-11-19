@@ -1,6 +1,7 @@
+package org.tool;
+
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.*;
 import javax.swing.event.*;
 
 public class AutoTyperUI extends JFrame {

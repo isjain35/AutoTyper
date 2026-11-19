@@ -1,3 +1,5 @@
+package org.tool;
+
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.datatransfer.StringSelection;

@@ -1,3 +1,5 @@
+package org.tool;
+
 import javax.swing.SwingUtilities;
 
 public class AutoTyper {
@@ -6,4 +8,4 @@ public class AutoTyper {
             new AutoTyperUI().setVisible(true);
         });
     }
-} 
+}

@@ -1,3 +1,5 @@
+package org.tool;
+
 public class AutoTyperController {
     private AutoTyperUI ui;
     private TypingService typingService;
